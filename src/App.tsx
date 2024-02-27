@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
-import { LazyImage, InfiniteScroll } from "./components";
+import { LazyImage, InfiniteScroll, AnimatedElement } from "./components";
 
 const images = [
   { id: 1, src: "/imgs/image1.jpg", alt: "Description 1" },
@@ -55,6 +55,9 @@ function App() {
             className="lazy-image"
           />
         ))}
+      </section>
+      <section>
+        <AnimatedElement />
       </section>
       <section>
         {items.map((item) => (

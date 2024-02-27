@@ -28,3 +28,19 @@ main {
   margin: 5px;
   padding: 10px;
 }
+
+/* AnimatedElement.css */
+.animated-element {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.animated-element.animate {
+  opacity: 1;
+  transform: translateY(0);
+  width: 15rem;
+  height: 5rem;
+  margin: 0 auto;
+  color: blue;
+}
