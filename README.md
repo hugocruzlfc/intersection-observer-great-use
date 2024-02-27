@@ -27,3 +27,17 @@ You will also see any lint errors in the console.
 #### Smoother scrolling: Scrolling feels more responsive, as heavy images don’t download upfront, preventing janky page jumps.
 
 #### Improved user experience: Users see the content they are interested in faster, leading to a better overall experience
+
+## Use Case 2: Infinite Scrolling with the Intersection Observer
+
+### Benefits of infinite scrolling with React Intersection Observer
+
+#### Improved user experience: Users can seamlessly scroll through content without interruptions, providing a more engaging experience.
+
+#### Efficient resource usage: Resources are only loaded when needed, reducing unnecessary data fetching and rendering.
+
+#### Simplified navigation: Removes the need for traditional pagination links, simplifying the navigation experience for users.
+
+#### Improved performance: Fine-grained observation avoids unnecessary calculations and content loading.
+
+#### Increased visibility: Metrics like Time to Interactive benefit, boosting SEO and Google Lighthouse scores.
